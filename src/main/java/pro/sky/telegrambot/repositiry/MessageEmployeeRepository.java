@@ -9,5 +9,6 @@ import java.util.Collection;
 
 @Repository
 public interface MessageEmployeeRepository  extends JpaRepository<MessageEmployee, Long> {
+
     Collection<MessageEmployee> findByLocalDateTime(LocalDateTime localDateTime);
 }

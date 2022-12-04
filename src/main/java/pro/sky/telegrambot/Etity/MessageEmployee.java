@@ -24,7 +24,8 @@ public class MessageEmployee {
     public String toString() {
         return
                 localDateTime +
-                ", message='" + " " + message
+                        ", message='" + " "
+                        + message
                 ;
     }
 
